@@ -1,5 +1,5 @@
 # Select screen using pie menu
-![alt text](https://raw.githubusercontent.com/miniukof/bl-screen_pie/master/example.png "Example")
+![alt text](http://i.imgur.com/AVDuwCN.jpg "Example")
 
 # Installation
 * Click on `Install from File` button in User Preferences Add-on tab and point it to `screen_pie.py` file.
