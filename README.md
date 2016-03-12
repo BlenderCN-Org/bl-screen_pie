@@ -1,5 +1,5 @@
 # Select screen using pie menu
-![alt text](http://i.imgur.com/AVDuwCN.jpg "Example")
+![alt text](http://i.imgur.com/1UeDJxq.png "Example")
 
 # Installation
 * Click on `Install from File` button in User Preferences Add-on tab and point it to `screen_pie.py` file.
