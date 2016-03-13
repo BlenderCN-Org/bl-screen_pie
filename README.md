@@ -3,4 +3,4 @@
 
 # Installation
 * Click on `Install from File` button in User Preferences Add-on tab and point it to `screen_pie.py` file.
-* Add shortcut for `ui.screen_pie_menu`, preferably in Screen(Global) section.
+* Add shortcut for `wm.call_menu_pie`, preferably in Screen(Global) section, then in the `Name` section type `ui.screen_pie_menu`
