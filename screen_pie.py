@@ -25,6 +25,7 @@ class ScreenPieMenu(bpy.types.Menu):
 class ScreenPieChange(bpy.types.Operator):
     bl_idname = 'pie.screen_pie_menu_change_screen'
     bl_label = 'Change Screen Function for ScreenPieMenu'
+    bl_options = {'INTERNAL'}
 
     scr_name = bpy.props.StringProperty()
 
@@ -32,10 +33,9 @@ class ScreenPieChange(bpy.types.Operator):
         bpy.context.window.screen = bpy.data.screens[self.scr_name]
         return{'FINISHED'}
 
+
 def register():
-    bpy.utils.register_class(ScreenPieMenu)
-    bpy.utils.register_class(ScreenPieChange)
+    bpy.utils.register_module(__name__)
 
 def unregister():
-    bpy.utils.unregister_class(ScreenPieMenu)
-    bpy.utils.unregister_class(ScreenPieChange)
+    bpy.utils.unregister_module(__name__)
