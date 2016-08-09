@@ -2,6 +2,7 @@ import bpy
 
 bl_info = {'name': 'Screen Pie Menu',
            'description': 'Select screen using pie menu.',
+           'location' : "Add shortcut to `ui.screen_pie_menu`",
            'author': 'miniukof',
            'version': (0, 0, 2),
            'blender': (2, 76, 11),
